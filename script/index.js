@@ -34,23 +34,23 @@ async function getCity() {
         // This changes the background of every weather condition
 
         if (weather.textContent === "Clear" || weather.textContent === "Sunny") {
-            backgroundUrl = "url('../src/assets/wallpaper4.jpg')";
+            backgroundUrl = "url('../assets/wallpaper4.jpg')";
         } else if (weather.textContent.toLowerCase() === "partly cloudy") {
-            backgroundUrl = "url('../src/assets/wallpaper8.jpg')";
+            backgroundUrl = "url('../assets/wallpaper8.jpg')";
         } else if (weather.textContent.toLocaleLowerCase().includes("cloudy") || weather.textContent === "Overcast") {
-            backgroundUrl = "url('../src/assets/wallpaper7.jpg')";
+            backgroundUrl = "url('../assets/wallpaper7.jpg')";
         } else if (weather.textContent === "Mist" || weather.textContent === "Fog" || weather.textContent === "Freezing fog") {
-            backgroundUrl = "url('../src/assets/wallpaper1.jpg')";
+            backgroundUrl = "url('../assets/wallpaper1.jpg')";
         } else if (weather.textContent.includes("thunder")) {
-            backgroundUrl = "url('../src/assets/wallpaper5.jpg')";
+            backgroundUrl = "url('../assets/wallpaper5.jpg')";
         } else if (weather.textContent.toLowerCase().includes("blizzard") || weather.textContent.toLowerCase().includes("snow")) {
-            backgroundUrl = "url('../src/assets/wallpaper6.jpg')";
+            backgroundUrl = "url('../assets/wallpaper6.jpg')";
         } else if (weather.textContent.toLocaleLowerCase().includes("rain")) {
-            backgroundUrl = "url('../src/assets/wallpaper3.jpg')";
+            backgroundUrl = "url('../assets/wallpaper3.jpg')";
         } else if (weather.textContent.toLowerCase().includes("sleet showers") || weather.textContent.toLowerCase().includes("snow showers")) {
-            backgroundUrl = "url('../src/assets/wallpaper2.jpg')";
+            backgroundUrl = "url('../assets/wallpaper2.jpg')";
         } else {
-            backgroundUrl = "url('../src/assets/wallpaper8.jpg')";
+            backgroundUrl = "url('../assets/wallpaper8.jpg')";
         }
 
         document.body.style.transition = "background-image .5s ease";
