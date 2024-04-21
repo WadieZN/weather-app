@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/bb85b417d7.js" crossorigin="anonymous"></script>
+    <script src="script/index.js" defer></script>
+</head>
+
+<body>
+    <div id="form">
+        <input id="text" type="text" placeholder="London, Moscow..">
+        <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div id="layer"></div>
+    <div id="hide-loading">
+        <div id="loading">
+            <img src="./assets/spinner.gif" alt="loading">
+        </div>
+    </div>
+    <div id="content">
+        <div id="header"></div>
+        <div id="hide">
+            <div id="components">
+                <div class="component"">
+                    <i class="fa-solid fa-droplet"></i>
+                    <h2>Humidity: </h2>
+                    <h2 id="humidity"></h2>
+                </div>
+                <div class="component">
+                    <i class="fa-solid fa-wind"></i>
+                    <h2>Wind: </h2>
+                    <h2 id="wind"></h2>
+                </div>
+                <div class="component">
+                    <i class="fa-solid fa-temperature-three-quarters"></i>
+                    <h2>Temperature (c) :</h2>
+                    <h2 id="temp"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
