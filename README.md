@@ -12,5 +12,4 @@ Link: <a>https://wadiezn.github.io/weather-app/</a>
   <li>Javascript</li>
   <li>CSS</li>
   <li>HTML</li>
-  <li>Git</li>
 </ul>
